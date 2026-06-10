@@ -1,0 +1,35 @@
+{
+  "curriculum": [
+    {
+      "topic": "Matrix Multiplication Rules",
+      "mcqs": [
+        {
+          "question_text": "একটি $2 \\times 3$ এবং একটি $3 \\times 2$ ম্যাট্রিক্সের গুণফলের ক্রম কত হবে?",
+          "option_a": "$2 \\times 2$",
+          "option_b": "$3 \\times 3$",
+          "option_c": "$2 \\times 3$",
+          "option_d": "$3 \\times 2$",
+          "correct_option": "a",
+          "source": "DU 20-21",
+          "explanation": "গুণফলের সারি হবে ১ম ম্যাট্রিক্সের সারির সমান এবং কলাম হবে ২য় ম্যাট্রিক্সের কলামের সমান।"
+        }
+      ]
+    },
+    {
+      "topic": "Determinants Properties",
+      "mcqs": [
+        {
+          "question_text": "নিচের চিত্রটি লক্ষ্য করো এবং নির্ণায়কের মান বের করো:",
+          "question_image": "https://pub-e2c71a91f86f428982fe1b1f721d68b9.r2.dev/matrix_q1.png",
+          "option_a": "0",
+          "option_b": "1",
+          "option_c": "-1",
+          "option_d": "5",
+          "correct_option": "a",
+          "source": "CU 18-19",
+          "explanation": "যদি কোনো নির্ণায়কের দুটি সারি বা কলাম অভিন্ন হয়, তবে তার মান ০ হয়।"
+        }
+      ]
+    }
+  ]
+}
