@@ -1,0 +1,42 @@
+  [
+  {
+    "question_text": "একটি আয়তাকার কুন্ডলীর পাক সংখ্যা $N$ হলে এর চৌম্বক ভ্রামক কত? <br> (i) $NI$ <br> (ii) $NIA$",
+    "options": {
+      "a": "NI",
+      "b": "NIA",
+      "c": "N/A",
+      "d": "I/A"
+    },
+    "correct_option": "b",
+    "explanation": "আমরা জানি, চৌম্বক ভ্রামক $M = NIA$। এখানে $N$ পাকসংখ্যা, $I$ তড়িৎপ্রবাহ এবং $A$ ক্ষেত্রফল।",
+    "chapter": "4",
+  }
+]
+chapter key will be numeric.
+
+
+chapter list  'Physics': {
+      '1': [
+        'Chapter 01: ভৌত জগৎ ও পরিমাপ',
+        'Chapter 02: ভেক্টর',
+        'Chapter 03: গতিবিদ্যা',
+        'Chapter 04: নিউটোনিয়ান বলবিদ্যা',
+        'Chapter 05: কাজ, শক্তি ও ক্ষমতা',
+        'Chapter 06: মহাকর্ষ ও অভিকর্ষ',
+        'Chapter 07: পদার্থের গাঠনিক ধর্ম',
+        'Chapter 08: পর্যাবৃত্ত গতি',
+        'Chapter 09: তরঙ্গ',
+        'Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব'
+      ],
+
+make sure there is a chapter key (numeric,eg for Chapter 02: ভেক্টর' the value will be 2 ), if there alrady one verify and place the correct one
+
+wrap every equation with $ 
+
+add an explanation,detailed and easy to understand for a student ,descriptive .for biology explain other  options too
+
+
+dont change other keys , (only you can change so that my renderer support, not the meaning/value)[strictly follow this]
+
+be aware of Bad escaped character in JSON at position, so that this problem dont occur
+
