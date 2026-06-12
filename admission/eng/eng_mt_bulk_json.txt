@@ -1,0 +1,39 @@
+[
+  {
+    "question_text": "একটি বস্তুর ভর $m = 5\\text{ kg}$ এবং ত্বরণ $a = 2\\text{ m/s}^2$ হলে বল ($F$) কত?",
+    "option_a": "$10\\text{ N}$",
+    "option_b": "$15\\text{ N}$",
+    "option_c": "$20\\text{ N}$",
+    "option_d": "$25\\text{ N}$",
+    "correct_option": "a",
+    "explanation": "আমরা জানি, $F = ma = 5 \\times 2 = 10\\text{ N}$।"
+  },
+  {
+    "question_text": "কোনটি সঠিক অর্ধপরিবাহী সমীকরণ?",
+    "option_a": "সিলিকন",
+    "option_b": "জার্মেনিয়াম",
+    "option_c": "তামা",
+    "option_d": "রুপা",
+    "option_e": "ক এবং খ উভয়ই",
+    "correct_option": "e",
+    "explanation": "সিলিকন এবং জার্মেনিয়াম উভয়ই অর্ধপরিবাহী।"
+  },
+  {
+    "question_text": "নিচের চিত্রটি লক্ষ্য করো এবং রোধ নির্ণয় করো।",
+    "question_image": "https://pub-e2c71a91f86f428982fe1b1f721d68b9.r2.dev/circuit.png",
+    "option_a": "$5 \\ \\Omega$",
+    "option_b": "$10 \\ \\Omega$",
+    "option_c": "$15 \\ \\Omega$",
+    "option_d": "$20 \\ \\Omega$",
+    "correct_option": "b",
+    "explanation": "বর্তনীতে রোধগুলো শ্রেণিতে যুক্ত আছে।"
+  }
+]
+2. Supported Fields Reference Table
+question_text: (Required) The question body. Supports LaTeX using single dollar signs (e.g. $E=mc^2$).
+option_a to option_d: (Required) Option texts.
+option_e: (Optional) 5th option. If present and not empty, the question automatically renders with 5 options.
+correct_option: (Required) Must be lowercase: "a", "b", "c", "d", or "e".
+explanation: (Optional) Detailed solution text.
+question_image: (Optional) Direct URL to a diagram or math formula image.
+option_image: (Optional) Direct URL to a full-page option image.
